@@ -1,0 +1,18 @@
+
+body{
+    background-attachment: fixed;
+    background-image: url("https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+font-family:cursive;
+
+text-align: center;}
+
+h1{
+    color:#BF4342;
+}
+
+
+header{
+text-align: center;
+list-style: none;
+}
+
