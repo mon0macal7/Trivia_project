@@ -12,6 +12,4 @@
 
 ---
 
-[Título del Link:(https://github.com/mon0macal7/Trivia_project)]
-
 ![Diagrama de flujo](./assets/flux.png)
