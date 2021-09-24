@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="triviacolor.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+</style>
+    <script src="https://kit.fontawesome.com/69a219632b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- welcome -->
     <header class="header">
 
-        <h1 id= "title">Trivia <em>Jerga Latinoaméricana</em></h1>
-        <h1>Bienvenido(a)
-            <strong>Selecciona la respuesta correcta</strong>
-        </h1>
-        <img id ="image"src= https://fotofestin.com/wp-content/uploads/2015/05/La-sal-de-tierra-3.jpg/>
+        <img class="logotriv" src="assets/trivlog.png">
+        <h1><strong>Bienvenido(a)</strong></h1>
+        <img class= "gif"src="https://media0.giphy.com/media/bI5OD9JM0gpSeXY0S5/giphy.gif?cid=ecf05e47empfg5ib2me0w6ycmej5drfeu4e7ovdgqmuvfrz4&rid=giphy.gif&ct=g">
         <p id="userName">
             
-            La jerga son las palabras coloquiales de un idioma. 
-            Como se habla español en muchos países del mundo, existen muchísimas palabras de jerga en español diferentes y muy curiosas.
-            En esta trivia conocerás algunas de ellas en su versión latinoamericana.
+            <em>La "jerga" son las palabras coloquiales de un idioma. <br>
+                Como se habla español en muchos países del mundo, existen muchísimas palabras de jerga en español diferentes y muy curiosas.<br>
+                En esta trivia conocerás algunas de ellas en su versión latinoamericana.</em> 
         </p>
-
-
     </header>
     <!-- Inicia la seccion de preguntas -->
     <div id="start">
@@ -60,7 +60,7 @@
             
             <p class="questions">4. <em>Tinieblo</em> es una palabra utilizada en Colombia que se utiliza para referirse a:
                  <ul id="q4">
-                        <li>a) El jefe </li>
+                        <li>a)El jefe </li>
                         <li>b)El profesor</li>
                         <li>c)El amante</li>
                         <li id="wa4"></li>
@@ -100,7 +100,9 @@
                 <ul id="q8">
                        <li>a)gracioso</li>
                        <li>b)enojon</li>
-                       <li>c)enojon</li>
+                       <li>c)ladron
+
+                       </li>
                        <li id="wa8"></li>
                 </ul>
             </p>
@@ -125,13 +127,9 @@
                 </ul>
             </p>
                     
-                    
-                                                                                                      
+                         <h2 id="resultadosA"></h2>    
+                         <h3 id="resultadosB"></h3>                                                                         
 
-    <p>respuesta recibida</p>
-    <p id="receiveAnswer1"></p>
-    <p> Respuesta correcta </p>
-    <p id="correctAnswer1"></p>
 <script src= "triviapp.js"></script>
     </body>
 </html>

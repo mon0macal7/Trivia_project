@@ -1,18 +1,47 @@
 
 body{
     background-attachment: fixed;
-    background-image: url("https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-font-family:cursive;
+    background-image: linear-gradient(90deg, rgba(133, 226, 226, 0.89), rgba(208, 208, 226, 0.253)), url("https://image.freepik.com/foto-gratis/mano-persona-sosteniendo-globo-pequeno_23-2147817182.jpg");;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: block;
+}
 
-text-align: center;}
+li{
+    list-style: none;
+}
 
 h1{
-    color:#BF4342;
+    color:#593959;
+    font-size: 30px;
+    text-emphasis-color: rgba(143, 28, 143, 0.781);
 }
 
 
 header{
-text-align: center;
-list-style: none;
+    text-align: center;
+    list-style: none;
+}
+p{
+    font-size: 20px;
+    color: #007991;
+}
+
+.gif{
+    border-radius: 15px;
+    width: 210px;
+    align-content: center;
+}
+.logotriv{
+    width: 350px;
+    height: 250px;
+    align-content: flex-start;
+
+}
+#start{
+    font-family:'Lobster', cursive;
+    font-size: 20px;
 }
 
